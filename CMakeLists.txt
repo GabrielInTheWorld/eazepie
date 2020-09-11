@@ -6,6 +6,6 @@ cmake_minimum_required (VERSION 3.8)
 project ("EazePie")
 
 # Add source to this project's executable.
-add_executable (EazePie "EazePie.cpp" "EazePie.h")
+add_executable (EazePie "*.cpp" "*.h")
 
 # TODO: Add tests and install targets if needed.

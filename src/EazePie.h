@@ -9,6 +9,6 @@
 #include <string>
 #include <sstream>
 
-using namespace std;
+#include "scanner.h"
 
-// TODO: Reference additional headers your program requires here.
+using namespace std;

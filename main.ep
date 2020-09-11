@@ -1,1 +1,4 @@
-hello world
+void main() {
+    print("Hello World")
+    string s = "Hello World"
+}

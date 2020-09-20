@@ -9,7 +9,7 @@
 using namespace std;
 
 class Scanner {
+    string inputstream;
 public:
     string readFile(const string filename);
-    // virtual ~Scanner();
 };

@@ -3,16 +3,18 @@
 string Scanner::readFile(const string filename) {
     ifstream file(filename);
     string line;
+    stringstream stream;
     
     if ( file.is_open() ) {
         while ( getline(file, line) ) {
-            cout << line << endl;
+            // cout << line << endl;
+            stream << "\n" << line;
         }
         file.close();
     } else {
         cout << "Unable to open file." << endl;
     }
-    return "hello world";
+    cout << stream.str() << endl;
+    inputstream = stream.str();
+    return stream.str();
 };
-
-// Scanner::~Scanner() {};

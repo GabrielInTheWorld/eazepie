@@ -10,5 +10,7 @@
 #include <sstream>
 
 #include "scanner.h"
+#include "inputstream.h"
+#include "lexer.h"
 
 using namespace std;
